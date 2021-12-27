@@ -1,0 +1,260 @@
+html {
+    font-family: sans-serif;
+
+}
+
+body{
+    background-color: rgb(243, 210, 215);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* nav bar */
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+nav ul li{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: white;
+    padding: 5px;
+    background-color: rgb(245, 235, 236);
+}
+
+/* heading*/
+
+.heading{
+    position: relative;
+    flex-grow: 10;
+}
+
+.heading img{
+    width: 100%;
+    height: 150px;
+}
+
+.heading img:hover{
+    opacity: 1;
+}
+
+.heading h1{
+    font-size: 70px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+}
+
+.footer img{
+    height: 200px;
+}
+
+.footer img:hover{
+    opacity: 1;
+}
+
+img{
+    width: 300px;
+    display: inline-block;
+    margin: 5px;
+
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.all{
+    display: flex;
+}
+
+.entry {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.img_entry{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+
+}
+
+
+.tag_entry{
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+#uploadFile label {
+    width: 150px;
+    text-align: right;
+    margin: 5px;
+    align-content: right;
+}
+
+#uploadFile input{
+    margin: 5px;
+}
+
+
+img:hover{
+    opacity:0.7;
+}
+
+.current_page{
+    display: flex;
+    justify-content: center;
+}
+
+.curr_img{
+    display: inline-block;
+}
+
+.curr_img img:hover{
+    opacity: 1;
+}
+
+.curr_descriptions{
+    display: inline-block;
+}
+
+.button{
+    margin-top: 5px;
+    background-color: rgb(243, 210, 215);
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 30px;
+}
+
+.button:hover{
+    background-color: white;
+}
+
+.savebutton{
+    margin-top: 5px;
+    background-color: rgb(243, 210, 215);
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 30px;
+    margin-left: 150px;
+}
+
+.button2 {
+    background-color: rgb(243, 210, 215);
+    border: none;
+    align-content: right;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.button2:hover{
+    background-color: white;
+}
+
+.button3{
+    background-color: rgb(243, 210, 215);
+    border:none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.button3:hover{
+    background-color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+}
+
+h2{
+    font-style:italic;
+}
+
+.form_feedback {
+    display: flex;
+    flex-direction:column;
+    color: red;
+    margin-bottom: 5px;
+    padding-left: 5px;
+
+  }
+
+.formlabel{
+    display: flex;
+    flex-direction: row;
+    text-align:right;
+  }
+
+.forminput{
+    display: flex;
+    flex-direction: column;
+}
+
+  .editbuttons{
+      display:inline-block;
+  }
+
+ li a{
+      text-decoration: none;
+  }
+
+  .locresults{
+      display:flex;
+  }
+
+.tagresults ul li{
+    margin-bottom: 5px;
+}
+
+.tagresults ul li a:hover{
+    color: rgb(197, 133, 144);
+}
+
+.submit{
+    margin-left: 220px;
+}
+
+h3{
+    margin-right: 10px;
+}
+
+.uploadform{
+    display:flex;
+}
